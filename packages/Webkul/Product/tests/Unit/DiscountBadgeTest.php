@@ -59,12 +59,12 @@ it('rounds percentages correctly', function () {
 it('calculates the discount from the bagisto prices array', function () {
     $prices = [
         'regular' => [
-            'price'           => 100.0,
+            'price' => 100.0,
             'formatted_price' => '$100.00',
         ],
 
         'final' => [
-            'price'           => 50.0,
+            'price' => 50.0,
             'formatted_price' => '$50.00',
         ],
     ];

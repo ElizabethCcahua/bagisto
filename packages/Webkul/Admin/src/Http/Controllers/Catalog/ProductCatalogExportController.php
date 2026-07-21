@@ -78,7 +78,7 @@ class ProductCatalogExportController extends Controller
 
             fclose($handle);
         }, $fileName, [
-            'Content-Type'  => 'text/csv; charset=UTF-8',
+            'Content-Type' => 'text/csv; charset=UTF-8',
             'Cache-Control' => 'no-store, no-cache',
         ]);
     }
